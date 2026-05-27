@@ -1,0 +1,48 @@
+{
+  "system_name": "Chemical Injection Skid",
+  "line_designation": "SCH-80-MET-300-SS316",
+  "process_fluid": "Methanol",
+  "design_pressure_bar": 15.0,
+  "design_temp_c": 20.0,
+  "pipe_material": "SS316",
+  "pipe_schedule": "SCH-80",
+  "flow_rate_m3h": 2.5,
+  "instruments": [
+    {
+      "tag": "P-300A",
+      "type": "Centrifugal Pump",
+      "service": "Methanol",
+      "line_designation": "SCH-80-MET-300-SS316",
+      "spec_note": "Primary transfer duty at 2.5 m3/h"
+    },
+    {
+      "tag": "FT-301",
+      "type": "Flow Transmitter",
+      "service": "Methanol",
+      "line_designation": "SCH-80-MET-300-SS316",
+      "spec_note": "Design flow 2.5 m3/h"
+    },
+    {
+      "tag": "PSV-302",
+      "type": "Pressure Safety Valve",
+      "service": "Methanol",
+      "line_designation": "SCH-80-MET-300-SS316",
+      "spec_note": "Set pressure 16.50 bar"
+    },
+    {
+      "tag": "CV-303",
+      "type": "Check Valve",
+      "service": "Methanol",
+      "line_designation": "SCH-80-MET-300-SS316",
+      "spec_note": "Prevents reverse flow"
+    },
+    {
+      "tag": "PT-305",
+      "type": "Pressure Transmitter",
+      "service": "Methanol",
+      "line_designation": "SCH-80-MET-300-SS316",
+      "spec_note": "Design pressure 15.0 bar"
+    }
+  ],
+  "generated_at": "2026-05-27T16:42:18-04:00"
+}

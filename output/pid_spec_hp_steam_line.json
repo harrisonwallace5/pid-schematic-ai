@@ -1,0 +1,48 @@
+{
+  "system_name": "HP Steam Line",
+  "line_designation": "SCH-80-STE-200-SS316",
+  "process_fluid": "Steam",
+  "design_pressure_bar": 42.0,
+  "design_temp_c": 380.0,
+  "pipe_material": "SS316",
+  "pipe_schedule": "SCH-80",
+  "flow_rate_m3h": 12.0,
+  "instruments": [
+    {
+      "tag": "FT-201",
+      "type": "Flow Transmitter",
+      "service": "Steam",
+      "line_designation": "SCH-80-STE-200-SS316",
+      "spec_note": "Design flow 12.0 m3/h"
+    },
+    {
+      "tag": "FCV-201",
+      "type": "Flow Control Valve",
+      "service": "Steam",
+      "line_designation": "SCH-80-STE-200-SS316",
+      "spec_note": "Modulating service on main process line"
+    },
+    {
+      "tag": "PSV-202",
+      "type": "Pressure Safety Valve",
+      "service": "Steam",
+      "line_designation": "SCH-80-STE-200-SS316",
+      "spec_note": "Set pressure 46.20 bar"
+    },
+    {
+      "tag": "TT-204",
+      "type": "Temperature Transmitter",
+      "service": "Steam",
+      "line_designation": "SCH-80-STE-200-SS316",
+      "spec_note": "Design temperature 380.0 C"
+    },
+    {
+      "tag": "PT-205",
+      "type": "Pressure Transmitter",
+      "service": "Steam",
+      "line_designation": "SCH-80-STE-200-SS316",
+      "spec_note": "Design pressure 42.0 bar"
+    }
+  ],
+  "generated_at": "2026-05-27T16:42:18-04:00"
+}

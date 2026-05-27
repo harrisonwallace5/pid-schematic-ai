@@ -1,0 +1,55 @@
+{
+  "system_name": "Water Cooling Loop",
+  "line_designation": "SCH-40-COO-100-CS",
+  "process_fluid": "Cooling Water",
+  "design_pressure_bar": 6.0,
+  "design_temp_c": 25.0,
+  "pipe_material": "CS",
+  "pipe_schedule": "SCH-40",
+  "flow_rate_m3h": 45.0,
+  "instruments": [
+    {
+      "tag": "P-100A",
+      "type": "Centrifugal Pump",
+      "service": "Cooling Water",
+      "line_designation": "SCH-40-COO-100-CS",
+      "spec_note": "Primary transfer duty at 45.0 m3/h"
+    },
+    {
+      "tag": "FT-101",
+      "type": "Flow Transmitter",
+      "service": "Cooling Water",
+      "line_designation": "SCH-40-COO-100-CS",
+      "spec_note": "Design flow 45.0 m3/h"
+    },
+    {
+      "tag": "FCV-101",
+      "type": "Flow Control Valve",
+      "service": "Cooling Water",
+      "line_designation": "SCH-40-COO-100-CS",
+      "spec_note": "Modulating service on main process line"
+    },
+    {
+      "tag": "HE-100",
+      "type": "Shell & Tube Heat Exchanger",
+      "service": "Cooling Water",
+      "line_designation": "SCH-40-COO-100-CS",
+      "spec_note": "Thermal service for Cooling Water"
+    },
+    {
+      "tag": "CV-103",
+      "type": "Check Valve",
+      "service": "Cooling Water",
+      "line_designation": "SCH-40-COO-100-CS",
+      "spec_note": "Prevents reverse flow"
+    },
+    {
+      "tag": "TT-104",
+      "type": "Temperature Transmitter",
+      "service": "Cooling Water",
+      "line_designation": "SCH-40-COO-100-CS",
+      "spec_note": "Design temperature 25.0 C"
+    }
+  ],
+  "generated_at": "2026-05-27T16:42:18-04:00"
+}
